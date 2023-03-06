@@ -1,2 +1,15 @@
 - Problem we're trying to solve:
   Gender neutral dialog.
+
+
+- Created a solution file.
+  Group of projects.
+  Useful when your project is growing in size.
+
+- Created a project file.
+  Contains instructions to generate machine code from your source code.
+
+- Added project file to solution.
+  Now, you can manage your whole software endeavour using this solution file.
+
+- Finally, `dotnet run` to run the project.

@@ -1,0 +1,4 @@
+Ash
+
+    < 06/03/202: worked on general idea. 
+    06/03/2023:  learning about c#
