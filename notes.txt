@@ -1,0 +1,33 @@
+1. Script that finds differences in dialogue and replaces them with gnmtokens
+  - what are the pitfalls of this approach? (will it break anything?) : edits actual files
+    - tell users to back-up mods?
+    - handle backing up changed files?
+    - copy original file
+      - add -x
+      - .disabled old + extra script that users can run to remove .disabled from files in mods folder
+        - if other mods use .disabled then we have a compat issue
+
+  - what are the edge cases that aren't covered by this approach? : bathhouse icons. with hana's gnm mod its not an issue though.
+  - hana gnm compatibility
+2. GNMTokens mod handles creation of tokens
+
+
+
+Random: {{Hana.GNMTokens/SubjectivePronoun}}
+
+{{Hana.GNMTokens/Singular}}
+{{Hana.GNMTokens/SubjectivePronoun}}
+{{Hana.GNMTokens/ObjectivePronoun}}
+{{Hana.GNMTokens/PosessivePronoun}}
+{{Hana.GNMTokens/Title}}
+{{Hana.GNMTokens/Adjective}}
+{{Hana.GNMTokens/SpouseNoun}}
+{{Hana.GNMTokens/GenericNoun}}
+{{Hana.GNMTokens/AdultAntiquatedNoun}}
+{{Hana.GNMTokens/AdultFamilialNoun}}
+{{Hana.GNMTokens/ElderAntiquatedNoun}}
+{{Hana.GNMTokens/ElderInformalNoun}}
+{{Hana.GNMTokens/ElderFamilialNoun}}
+{{Hana.GNMTokens/ChildFamilialNoun}}
+{{Hana.GNMTokens/ServiceFormalNoun}}
+{{Hana.GNMTokens/TraderNoun}}
